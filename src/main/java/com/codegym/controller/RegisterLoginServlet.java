@@ -1,6 +1,5 @@
 package com.codegym.controller;
 
-import com.codegym.model.User;
 import com.codegym.service.user.IUserService;
 import com.codegym.service.user.UserService;
 
@@ -8,7 +7,6 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet(name = "RegisterLoginServlet", value = "")
 public class RegisterLoginServlet extends HttpServlet {
